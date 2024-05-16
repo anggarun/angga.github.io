@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    font-size: 1.5rem;
+}
+body {
+    background-color: #acacac;
+}
+.container {
+    width: 216mm;
+    height: 330mm;
+    background-color: aqua;
+    padding-top: 30px;
+}
+.name-box {
+    position: relative;
+    right: -260px;
+    color: white;
+
+}
+.link-box {
+    margin-bottom: 30px;
+}
+.link-box a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+
+}
+.link-box a :hover {
+    color: orange;
+}
+.bagian1 {
+    background-color: white;
+    border-right: 5px solid aqua;
+}
+.bagian2 {
+    background-color: white;
+}
+.profile {
+    border: 5px solid aqua;
+    background-color: white;
+    width: 200px;
+    border-radius: 200px;
+    padding: 10px;
+    position: relative;
+    top: -150px;
+    right: -20px;
+}
+.profile h4 {
+    font-size: 1rem;
+    margin-bottom: 3px;
+}
+.img {
+    border-radius: 50%;
+}
+.img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile h4 i {
+    margin-right: 10px;
+}
+.skills {
+    font-size: 1.5rem;
+    margin-top: -100px;
+}
+.cap {
+    height: 40px;
+    width: 230px;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    font-size: 2rem;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.icons a {
+    text-decoration: none;
+    color: black;
+}
+.icons a :hover {
+    color: orange;
+}
+.Education ul li p {
+    margin-bottom: 5px;
+}
+.work-experience ul li p{
+    margin-bottom: 5px;
+}
+.footer  p {
+    color: white;
+    font-size: 1.5rem;
+}
+.love {
+    color: red;
+}
